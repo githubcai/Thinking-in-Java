@@ -7,14 +7,15 @@ public class Parcel10{
                 if(cost > 100)
                     System.out.println("Over budget!");
             }
-            private String lavel = dest;
-            public Stirng = readLabel(){
+            private String label = dest;
+            public String readLabel(){
                 return label;
             }
         };
     }
 
     public static void main(String[] args){
-        
+        Parcel10 p = new Parcel10();
+        Destination d = p.destination("Tasmania", 101.395F);
     }
 }
